@@ -1,14 +1,14 @@
 //Creating a class
 
 class Ginger {
-    // static property
+     //instance property
+
+    talent1 = 'singing';
+    talent2 = 'sleeping';
+    talent3 = 'writing';
     
-    static bestTalent = 'Known to have a beautiful voice';
+    //static property
     
-    constructor(talent1, talent2, talent3){
-        this.good = talent1;
-        this.bad = talent2;
-        this.terrible = talent3;
-    }
+    static numberOfTalent = 3
     
     }
